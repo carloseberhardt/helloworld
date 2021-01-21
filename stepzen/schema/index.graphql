@@ -1,0 +1,5 @@
+schema @sdl(files: ["location/location.graphql",
+"weatherreport/weatherreport.graphql",
+"location-weatherreport/location-weatherreport.graphql"]) {
+    query: Query
+}
